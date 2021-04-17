@@ -1,0 +1,1 @@
+nominee_a=input('Enter ')
