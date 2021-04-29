@@ -1,12 +1,11 @@
-user1='Student'
-user2='Admin'
+user='Admin'
 logged_in =True,
 
 
-if user1=='Student' and logged_in== False:
+if user=='Student' and logged_in== False:
     print('Student page')
-elif user2=='Admin' or logged_in== True:
-    print('Admin page,input password')
+elif user=='Admin' or logged_in== True:
+    user_input=input("Enter password:")
 else:
     print('user unrecognized')
 

@@ -13,11 +13,11 @@ name='Katama'
 if name=='Yvonne':
     print('my name')
 elif name=='Katama':
-    print('That is my sur name')
+    print("That's my sur name")
 elif name=='Muelani':
-    print('That is my nick name')
+    print("That's my nick name")
 else:
-    print('I do not know who that is')
+    print("I do'nt know who that is")
 # logical operators and chained conditionals
 user='Student'
 logged_in=False
